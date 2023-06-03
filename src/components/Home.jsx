@@ -2,6 +2,7 @@ import React from 'react'
 import {motion } from "framer-motion"
 import Typewriter from "typewriter-effect";
 import {BsArrowUpRight} from "react-icons/bs"
+import me from "../assets/my.jpg";
 
 function Home() {
     const animations={
@@ -71,7 +72,7 @@ function Home() {
             
         </section>
         <section>
-                <img alt="Akhil" />
+                <img  src={me} alt="Akhil" />
         </section>
 
     </div>
