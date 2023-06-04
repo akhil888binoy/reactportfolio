@@ -10,7 +10,7 @@ function Header() {
 
 const NavContent = () => (
   <>
-    <h2>Akhil Binoy</h2>
+    <h2>Akhil Binoy.</h2>
     <div>
       <a href="#home"> Home </a>
       <a href="#work"> Work </a>

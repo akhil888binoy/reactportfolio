@@ -1,7 +1,7 @@
 import React from 'react'
 import {animate, motion } from "framer-motion"
 import Typewriter from "typewriter-effect";
-import {BsArrowUpRight, BsChevronBarDown} from "react-icons/bs"
+import {BsArrowUpRight, BsChevronDown} from "react-icons/bs"
 import me from "../assets/my.jpg";
 import { useRef } from 'react';
 
@@ -49,7 +49,7 @@ function Home() {
     <div id='home'>
         <section>
             <div>
-                <motion.h1 {...animations.h1} > Hi I am <br />Akhil Binoy</motion.h1>
+                <motion.h1 {...animations.h1} > Hi, I am <br />Akhil Binoy</motion.h1>
                 <Typewriter options={{
                     strings:["Software Robots", "MERN" , "DevOps"],
                     autoStart: true,
@@ -90,7 +90,7 @@ function Home() {
             <section>
                     <img  src={me} alt="Akhil" />
             </section>
-     <BsChevronBarDown className='bs'></BsChevronBarDown>
+     <BsChevronDown className='bs'></BsChevronDown>
 
     </div>
   )
