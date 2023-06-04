@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Testimonial></Testimonial>
       <Contact></Contact>
       <Toaster></Toaster>
+      <Footer></Footer>
     </>
   );
 }
